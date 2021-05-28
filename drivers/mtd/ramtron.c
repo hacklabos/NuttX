@@ -212,7 +212,7 @@ static const struct ramtron_parts_s g_ramtron_parts[] =
   {
     "FM25V02A",                   /* name */
     0x22,                         /* id1 */
-    0x08,                         /* id2 */
+    0x48,                         /* id2 */
     32L*1024L,                    /* size */
     2,                            /* addr_len */
     RAMTRON_INIT_CLK_MAX          /* speed */
